@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum-Dimensions - News & Insights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Masthead and Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="masthead">
+                <h1 class="logo">Forum-Dimensions</h1>
+                <p class="tagline">The Official University Student Publication of West Visayas State University</p>
+            </div>
+            
+            <nav class="nav">
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#" class="nav-link">Top News</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">Segments</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Coverage</a></li>
+                            <li><a href="#">Editorial</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Multilingual</a></li>
+                            <li><a href="#">Opinion</a></li>
+                            <li><a href="#">Post</a></li>
+                            <li><a href="#">Sports</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <div class="search-container">
+                    <form class="search-form">
+                        <input type="text" placeholder="Search news..." class="search-input">
+                        <button type="submit" class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Featured Article Section -->
+            <section class="hero-section">
+                <article class="featured-article" onclick="window.location.href='article1.html'">
+                    <div class="article-image">
+                        <img src="Pictures/Breaking.jpg" alt="Breaking News" />
+                        <div class="article-badge">Breaking</div>
+                    </div>
+                    <div class="article-content">
+                        <h2 class="article-title">OSA to revise Univ student handbook by summer</h2>
+                        <p class="article-excerpt">The University’s Office of Student Affairs (OSA) Dean Dr. Ma. Pilar Malata has announced the revision of the student handbook this upcoming summer break.</p>
+                        <div class="article-meta">
+                            <span class="author">Josef Henri Tumbagahan</span>
+                            <span class="date">June 9, 2025</span>
+                            <span class="read-time">5 min read</span>
+                        </div>
+                        <a href="article1.html" class="read-more-btn">Read Full Story</a>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Secondary Articles Section -->
+            <section class="secondary-section">
+                <h3 class="section-title">Top Stories</h3>
+                <div class="articles-grid">
+                    <article class="article-card" onclick="window.location.href='article2.html'">
+                        <div class="card-image">
+                            <img src="Pictures/Panginbulahan.jpg" alt="Panginbulahan" />
+                            <div class="card-category">PANGINBULAHAN</div>
+                        </div>
+                        <div class="card-content">
+                            <h4 class="card-title">PANGINBULAHAN</h4>
+                            <p class="card-excerpt">Forum-Dimensions extends its warmest congratulations to Nove Joy Losbañes, Editor-in-Chief for academic year 2024-2025, for being this year’s recipient of the esteemed Esteban Javellana Award for Excellence in the Field of Creative Writing.</p>
+                            <div class="card-meta">
+                                <span class="author"></span>
+                                <span class="date">June 9, 2025</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="article-card" onclick="window.location.href='article3.html'">
+                        <div class="card-image">
+                            <img src="Pictures/NewsUpdate.jpg" alt="News Update" />
+                            <div class="card-category">NEWS UPDATE</div>
+                        </div>
+                        <div class="card-content">
+                            <h4 class="card-title">Graduating students urged to secure Alumni ID before graduation</h4>
+                            <p class="card-excerpt">Graduating students at the University were encouraged to register for their alumni identification cards prior to this year’s Commencement Exercises on June 13.</p>
+                            <div class="card-meta">
+                                <span class="author">Symon Peterneil Vacunawa</span>
+                                <span class="date">June 7, 2025</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="article-card" onclick="window.location.href='article4.html'">
+                        <div class="card-image">
+                            <img src="Pictures/FromTheArchives.webp" alt="From The Archives" />
+                            <div class="card-category">#FROMTHEARCHIVES</div>
+                        </div>
+                        <div class="card-content">
+                            <h4 class="card-title">Nanay for Hire: Ang kwento ng mga babaeng naging propesyon na ang pagiging ina</h4>
+                            <p class="card-excerpt">“𝗛𝗶𝗻𝗱𝗶 𝗽𝗮𝗻𝗴𝗸𝗮𝗿𝗮𝗻𝗶𝘄𝗮𝗻𝗴 𝘁𝗿𝗮𝗯𝗮𝗵𝗼 𝗮𝗻𝗴 𝗺𝗮𝘆𝗿𝗼𝗼𝗻 𝘀𝗶𝗹𝗮. 𝗦𝗮𝗽𝗮𝗴𝗸𝗮𝘁 𝗯𝘂𝗸𝗼𝗱 𝘀𝗮 𝗽𝘂𝗻𝗮𝗻 𝗮𝗻𝗴 𝘁𝘂𝗻𝗴𝗸𝘂𝗹𝗶𝗻 𝗻𝗴 𝗶𝘀𝗮𝗻𝗴 𝗶𝗻𝗮, 𝗯𝗶𝗻𝘂𝗯𝘂𝗵𝗮𝘆 𝗱𝗶𝗻 𝗻𝗶𝗹𝗮 𝗮𝗻𝗴 𝗽𝗮𝗴-𝗮𝘀𝗮𝗻𝗴 𝗺𝗶𝗻𝘀𝗮𝗻 𝗻𝗮𝗻𝗴 𝗻𝗮𝗴𝗹𝗮𝗵𝗼 𝘀𝗮..."</p>
+                            <div class="card-meta">
+                                <span class="author">Angelie Kaye & Ella Hyacinth</span>
+                                <span class="date">May 11, 2025</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title">Forum-Dimensions</h4>
+                    <p class="footer-description">The Official University Student Publication of West Visayas State University.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Sections</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Coverage</a></li>
+                        <li><a href="#">Editorial</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Multilingual</a></li>
+                        <li><a href="#">Sports</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section newsletter">
+                    <h4 class="footer-title">Stay Updated</h4>
+                    <p class="newsletter-text">Subscribe to our newsletter for the latest news and insights.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+                        <button type="submit" class="newsletter-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 Forum-Dimensions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
